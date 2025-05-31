@@ -6,7 +6,7 @@ import pickle
 
 model=pickle.load(open("MODEL/pipe.pkl","rb"))
 df=pickle.load(open(r"MODEL/df.pkl","rb"))
-df1=pd.read_csv(r"C:\Users\mitra\OneDrive\Desktop\CREDIT RISK\DATASET\4. CREDIT SCORECARD\final_data.csv")
+# df1=pd.read_csv(r"C:\Users\mitra\OneDrive\Desktop\CREDIT RISK\DATASET\4. CREDIT SCORECARD\final_data.csv")
 
 
 st.title("LOAN DEFAULTER MODEL PREDICTION")
